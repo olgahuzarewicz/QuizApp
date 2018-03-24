@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">QuizApp - Star Wars</string>
+    <string name="question1">Question 1</string>
+    <string name="question1_text">Who killed Qui-Gon-Jinn?</string>
+    <string name="answer1_1">Darth Maul</string>
+    <string name="answer1_2">Darth Sidious</string>
+    <string name="answer1_3">General Grivious</string>
+    <string name="next">Next</string>
+</resources>
