@@ -5,5 +5,27 @@
     <string name="answer1_1">Darth Maul</string>
     <string name="answer1_2">Darth Sidious</string>
     <string name="answer1_3">General Grivious</string>
+    <string name="question2">Question 2</string>
+    <string name="question2_text">Whom DNA was used to build clone army?</string>
+    <string name="answer2_1">Boba Fett</string>
+    <string name="answer2_2">Jango Fett</string>
+    <string name="answer2_3">Pre Vizsla</string>
+    <string name="question3">Question 3</string>
+    <string name="question3_text">What was the number of famous order?</string>
+    <string name="answer3_1">40</string>
+    <string name="answer3_2">66</string>
+    <string name="answer3_3">57</string>
+    <string name="question4">Question 4</string>
+    <string name="question4_text">Select Jedi knights:</string>
+    <string name="answer4_1">Yoda</string>
+    <string name="answer4_2">R2D2</string>
+    <string name="answer4_3">Luke Skywalker</string>
+    <string name="question5">Question 5</string>
+    <string name="question5_text">Other Lord Vader name is:</string>
     <string name="next">Next</string>
+    <string name="result">Your result is:</string>
+    <string name="congrats1">You know nothing, John Snow..</string>
+    <string name="congrats2">Amateur!</string>
+    <string name="congrats3">You still need to learn, my young padawan</string>
+    <string name="congrats4">May the force be with You!</string>
 </resources>

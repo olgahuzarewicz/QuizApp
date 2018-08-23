@@ -1,61 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context="com.android.olga.quizapp.MainActivity">
+    android:orientation="vertical">
 
     <TextView
-        android:id="@+id/question1"
+        android:id="@+id/question4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:fontFamily="cursive"
-        android:text="@string/question1"
+        android:text="@string/question4"
         android:textSize="36sp" />
 
     <TextView
-        android:id="@+id/question1_text"
+        android:id="@+id/question4_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/question1"
+        android:layout_below="@id/question4"
         android:layout_centerHorizontal="true"
         android:layout_margin="20dp"
-        android:text="@string/question1_text"
+        android:text="@string/question4_text"
         android:textSize="24sp" />
 
-    <RadioGroup
+    <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/question1_text"
+        android:layout_below="@id/question4_text"
         android:layout_marginLeft="80dp">
 
-        <RadioButton
-            android:id="@+id/answer1_1"
+        <CheckBox
+            android:id="@+id/answer4_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:text="@string/answer1_1" />
+            android:text="@string/answer4_1" />
 
-        <RadioButton
-            android:id="@+id/answer1_2"
+        <CheckBox
+            android:id="@+id/answer4_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/answer1_1"
+            android:layout_below="@id/answer4_1"
             android:layout_marginBottom="10dp"
-            android:text="@string/answer1_2" />
+            android:text="@string/answer4_2" />
 
-        <RadioButton
-            android:id="@+id/answer1_3"
+        <CheckBox
+            android:id="@+id/answer4_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/answer1_2"
+            android:layout_below="@id/answer4_2"
             android:layout_marginBottom="10dp"
-            android:text="@string/answer1_3" />
+            android:text="@string/answer4_3" />
 
-    </RadioGroup>
+    </RelativeLayout>
 
     <Button
         android:id="@+id/button_next"

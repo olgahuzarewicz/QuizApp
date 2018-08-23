@@ -1,59 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context="com.android.olga.quizapp.MainActivity">
+    android:orientation="vertical">
 
     <TextView
-        android:id="@+id/question1"
+        android:id="@+id/question2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:fontFamily="cursive"
-        android:text="@string/question1"
+        android:text="@string/question2"
         android:textSize="36sp" />
 
     <TextView
-        android:id="@+id/question1_text"
+        android:id="@+id/question2_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/question1"
+        android:layout_below="@id/question2"
         android:layout_centerHorizontal="true"
         android:layout_margin="20dp"
-        android:text="@string/question1_text"
+        android:text="@string/question2_text"
         android:textSize="24sp" />
 
     <RadioGroup
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/question1_text"
+        android:layout_below="@id/question2_text"
         android:layout_marginLeft="80dp">
 
         <RadioButton
-            android:id="@+id/answer1_1"
+            android:id="@+id/answer2_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:text="@string/answer1_1" />
+            android:text="@string/answer2_1" />
 
         <RadioButton
-            android:id="@+id/answer1_2"
+            android:id="@+id/answer2_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/answer1_1"
+            android:layout_below="@id/answer2_1"
             android:layout_marginBottom="10dp"
-            android:text="@string/answer1_2" />
+            android:text="@string/answer2_2" />
 
         <RadioButton
-            android:id="@+id/answer1_3"
+            android:id="@+id/answer2_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/answer1_2"
+            android:layout_below="@id/answer2_2"
             android:layout_marginBottom="10dp"
-            android:text="@string/answer1_3" />
+            android:text="@string/answer2_3" />
 
     </RadioGroup>
 
